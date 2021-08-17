@@ -1,0 +1,32 @@
+:root {
+  --primary: #ef4983;
+  --background: #fff;
+  --white: #fff;
+  --dark: #444444;
+  --background-contrast: #f9f9f9;
+  --modal-label: #000000;
+  --placeholder: #8e8e8e;
+  --error: #f88676;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  background-color: var(#f9f9f9);
+  height: 58px;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: var(--placeholder);
+  font-size: 1.25rem;
+  font-weight: 500;
+}

@@ -12,6 +12,7 @@
 html,
 body {
   min-height: 100vh;
+  position: relative;
 }
 
 body {
@@ -30,3 +31,58 @@ input::placeholder {
   font-size: 1.25rem;
   font-weight: 500;
 }
+
+.header-container {
+  width: 100%;
+  background-color: var(--primary);
+  padding: 43px;
+  position: relative;
+}
+
+.nav-bar {
+  width: 100%;
+  max-width: 1109px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 149px;
+  height: 43px;
+}
+
+.header-link {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--white);
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+.header-link:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header-button {
+  height: 36px;
+  background-color: var(--white);
+  border-radius: 23px;
+
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 18px;
+  border-color: transparent;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.links-buttons-container {
+  display: flex;
+    align-items: center;
+}
+
+/* flexbox */

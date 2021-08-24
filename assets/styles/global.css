@@ -99,3 +99,33 @@ input::placeholder {
   font-weight: 700;
   font-size: 18px;
 }
+
+.container img {
+  width: 647px;
+  height: 597px;
+  position: relative;
+  left: 50%;
+  top: 52%;
+  margin-left: 28px;
+  margin-top: -52px;
+}
+
+main {
+  background-color: var(--primary);
+}
+
+main h2 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 56.25px;
+  color: var(--background);
+}
+
+.container section {
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  top: 212px;
+  left: 90px;
+  right: 151px;
+}

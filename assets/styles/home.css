@@ -1,0 +1,16 @@
+.wrapper {
+  background-color: var(--primary);
+}
+
+.container {
+  height: 597px;
+  position: relative;
+  padding: 0 20px 42px;
+  width: 100%;
+  max-width: 1109px;
+  margin: 0 auto;
+  background-image: url("../img/transparent-blue-balloons.png");
+  background-size: 647px;
+  background-repeat: no-repeat;
+  background-position: 123% -54%;
+}

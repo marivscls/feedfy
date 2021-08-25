@@ -19,24 +19,29 @@
 }
 
 .box {
-  max-width: 800px;
+  width: 100%;
+  max-width: 572px;
   height: 300px;
   padding: 0 auto;
 }
 
-.box h2 {
+.main-title {
   margin: 0 auto;
   font-weight: 900;
   font-style: normal;
   font-size: 48px;
   color: var(--background);
+  line-height: 1.2;
+  margin-bottom: 14px;
 }
 
-.box p {
+.main-subtitle {
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
   color: var(--background);
+  line-height: 1.2;
+  margin-bottom: 31px;
 }
 .box .button {
   height: 36px;
